@@ -1,0 +1,96 @@
+/**
+ * LUCKY NOVA — single source of truth for colors (solid only, no gradients).
+ * Future rebrand: edit values here only.
+ */
+:root {
+  /* ── Surfaces ── */
+  --theme-bg: #000000;
+  --theme-bg-soft: #0a0a0a;
+  --theme-bg-elevated: #121212;
+  --theme-bg-card: #1a1a1a;
+  --theme-bg-muted: #141414;
+  --theme-bg-input: #0d0d0d;
+  --theme-bg-overlay: rgba(0, 0, 0, 0.78);
+  --theme-bg-nav: rgba(10, 10, 10, 0.95);
+  --theme-bg-pill: rgba(20, 20, 20, 0.92);
+  --theme-btn-muted: #2a2a2a;
+
+  /* ── Text ── */
+  --theme-text: #ffffff;
+  --theme-text-secondary: #e5e5e5;
+  --theme-text-muted: #b0b0b0;
+  --theme-text-dim: #737373;
+  --theme-text-inverse: #000000;
+
+  /* ── Gold (brand / highlights) ── */
+  --theme-gold: #d4af37;
+  --theme-gold-bright: #ffd700;
+  --theme-gold-muted: #b8860b;
+  --theme-gold-glow: rgba(212, 175, 55, 0.35);
+
+  /* ── Green (primary actions / active states) ── */
+  --theme-green: #00d95a;
+  --theme-green-light: #34e87a;
+  --theme-green-dark: #00b84a;
+  --theme-green-deep: #009a3e;
+  --theme-green-glow: rgba(0, 217, 90, 0.38);
+  --theme-green-border: rgba(0, 217, 90, 0.5);
+  --theme-green-soft-bg: rgba(0, 217, 90, 0.14);
+
+  /* ── Game / accent solids (Wingo etc.) ── */
+  --theme-violet: #8b5cf6;
+  --theme-violet-light: #a78bfa;
+  --theme-orange: #f97316;
+  --theme-orange-light: #fb923c;
+  --theme-badge-hot: #ff4500;
+  --theme-blue: #3b82f6;
+  --theme-blue-light: #60a5fa;
+
+  /* ── Borders ── */
+  --theme-border: rgba(255, 255, 255, 0.08);
+  --theme-border-muted: rgba(255, 255, 255, 0.12);
+  --theme-border-strong: rgba(255, 255, 255, 0.2);
+  --theme-border-gold: rgba(212, 175, 55, 0.35);
+  --theme-border-green: rgba(0, 217, 90, 0.24);
+
+  /* ── Status ── */
+  --theme-danger: #ef4444;
+  --theme-danger-dark: #b91c1c;
+  --theme-danger-bg: rgba(127, 29, 29, 0.35);
+  --theme-danger-border: #991b1b;
+  --theme-danger-text: #fecaca;
+  --theme-warning: #fbbf24;
+  --theme-warning-bg: rgba(180, 83, 9, 0.2);
+  --theme-success: var(--theme-green);
+  --theme-info: var(--theme-green-light);
+
+  /* ── Shadows ── */
+  --theme-shadow-sm: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --theme-shadow-md: 0 8px 32px rgba(0, 0, 0, 0.45);
+  --theme-shadow-lg: 0 24px 48px rgba(0, 0, 0, 0.55);
+  --theme-shadow-green: 0 0 16px var(--theme-green-glow);
+  --theme-shadow-gold: 0 0 24px rgba(212, 175, 55, 0.12);
+
+  /* ── Solid aliases (old gradient variable names → flat colors) ── */
+  --theme-gradient-gold-text: var(--theme-gold-bright);
+  --theme-gradient-green: var(--theme-green);
+  --theme-gradient-green-h: var(--theme-green);
+  --theme-gradient-green-soft: var(--theme-green-soft-bg);
+  --theme-gradient-green-badge: var(--theme-green);
+  --theme-app-glow: transparent;
+  --theme-gradient-card: var(--theme-bg-card);
+  --theme-gradient-modal-header: var(--theme-bg-elevated);
+  --theme-gradient-banner: var(--theme-bg-card);
+
+  /* ── Legacy aliases ── */
+  --color-bg: var(--theme-bg);
+  --color-surface: var(--theme-bg-card);
+  --color-primary: var(--theme-green);
+  --color-primary-light: var(--theme-green-light);
+  --color-accent: var(--theme-gold);
+  --color-text: var(--theme-text);
+  --color-text-muted: var(--theme-text-muted);
+  --color-border: var(--theme-border);
+  --gradient-primary: var(--theme-green);
+  --gradient-cta: var(--theme-green);
+}

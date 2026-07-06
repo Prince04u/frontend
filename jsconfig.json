@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"],
+      "@design/*": ["../docs/design/*"]
+    }
+  }
+}
