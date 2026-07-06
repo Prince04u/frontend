@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@design/*": ["../docs/design/*"]
+      "@design/*": ["design/*"]
     }
   }
 }
